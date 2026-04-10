@@ -1,6 +1,6 @@
 {
   "name": "@enso-ui/confirmation",
-  "version": "2.0.16",
+  "version": "3.0.0",
   "description": "A minimal confirmation dialog",
   "main": "src/bulma/Confirmation.vue",
   "repository": {
