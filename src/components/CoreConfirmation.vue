@@ -2,10 +2,10 @@
     <dropdown ref="dialog">
         <slot/>
         <template #popper>
-            <slot name="confirm"
-                :confirm="confirm"/>
             <slot name="cancel"
                 :cancel="cancel"/>
+            <slot name="confirm"
+                :confirm="confirm"/>
         </template>
     </dropdown>
 </template>

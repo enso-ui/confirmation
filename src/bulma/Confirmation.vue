@@ -3,19 +3,19 @@
         <template #default>
             <slot/>
         </template>
-        <template #confirm="{ confirm }">
-            <a class="button is-small is-success mr-2"
-                @click="confirm">
-                <span class="icon is-small">
-                    <fa :icon="faCheck"/>
-                </span>
-            </a>
-        </template>
         <template #cancel="{ cancel }">
-            <a class="button is-small is-danger"
+            <a class="button is-small"
                 @click="cancel">
                 <span class="icon is-small">
                     <fa :icon="faXmark"/>
+                </span>
+            </a>
+        </template>
+        <template #confirm="{ confirm }">
+            <a class="button is-small is-dark ml-2"
+                @click="confirm">
+                <span class="icon is-small">
+                    <fa :icon="faCheck"/>
                 </span>
             </a>
         </template>
