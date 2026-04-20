@@ -1,7 +1,7 @@
 {
   "name": "@enso-ui/confirmation",
   "version": "3.1.2",
-  "description": "A minimal confirmation dialog",
+  "description": "Confirmation dropdown primitives and Bulma actions for Enso UI.",
   "main": "src/bulma/Confirmation.vue",
   "repository": {
     "type": "git",
